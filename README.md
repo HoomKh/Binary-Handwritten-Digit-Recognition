@@ -1,18 +1,85 @@
+<div style="text-align: center;">
+    <img src="banner/banner.jpg" style="width:950px;height:450px;">
+</div>
 
-Handwritten Digit Recognition (Binary) is a machine learning task aimed at identifying and classifying handwritten digits into two categories: typically, 0s and 1s. This task is a subset of the broader field of Optical Character Recognition (OCR), which involves converting handwritten or printed text into machine-encoded text.
+### Binary Handwritten Digit Recognition
 
-In the context of binary handwritten digit recognition, the goal is to create a model that can accurately distinguish between the two classes of digits: 0 and 1. This involves training a machine learning algorithm, often a neural network, on a dataset of labeled handwritten digit images. The model learns to extract relevant features from these images and make predictions on unseen data.
+---
 
-The process typically involves several steps:
+#### Description
 
-1. **Data Collection and Preprocessing**: Gathering a dataset of handwritten digit images labeled as 0 or 1. Preprocessing steps may include resizing, normalization, and noise reduction to standardize the images.
+This project implements a neural network model using TensorFlow and Keras to recognize handwritten digits as either 0 or 1. The model is trained, evaluated, and tested using the MNIST dataset, demonstrating effective binary classification performance.
 
-2. **Feature Extraction**: Extracting meaningful features from the images that can help distinguish between the two classes. This may involve techniques like edge detection, corner detection, or more advanced methods such as convolutional neural networks (CNNs).
+---
 
-3. **Model Training**: Using the labeled data to train a machine learning model, such as a neural network, to learn the relationship between the input images and their corresponding labels (0 or 1).
+#### Table of Contents
 
-4. **Model Evaluation**: Assessing the performance of the trained model on a separate dataset not used during training. Common evaluation metrics include accuracy, precision, recall, and F1-score.
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
 
-5. **Deployment**: Integrating the trained model into applications or systems where it can be used to classify handwritten digits in real-time.
+---
 
-Binary handwritten digit recognition has numerous applications, including optical character recognition in document scanning, automatic form processing, bank check processing, and digitization of handwritten notes. Additionally, it serves as a foundational task in computer vision and machine learning research.
+#### Introduction
+
+The goal of this project is to develop a machine learning model that can accurately distinguish between the handwritten digits '0' and '1'. The MNIST dataset is utilized for training and testing the model. The project explores the use of a simple neural network architecture to achieve high accuracy in binary digit recognition.
+
+---
+
+#### Installation
+
+To run this project, you will need to have Python installed along with the following libraries:
+
+- numpy
+- tensorflow
+- matplotlib
+
+You can install the required libraries using pip:
+
+```bash
+pip install numpy tensorflow matplotlib
+```
+
+---
+
+#### Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/HoomKh/Binary-Handwritten-Digit-Recognition.git
+cd Binary-Handwritten-Digit-Recognition
+```
+
+2. Open the Jupyter Notebook:
+
+```bash
+jupyter notebook Handwritten-Digit-Recognition-Binary.ipynb
+```
+
+3. Run the cells in the notebook to train and test the model.
+
+---
+
+#### Results
+
+The model is evaluated on the test set to determine its accuracy. Visualizations of the training process and the model's predictions are included in the notebook.
+
+---
+
+#### Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, please submit a pull request or open an issue.
+
+---
+
+#### License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+Happy coding! If you have any questions, feel free to reach out.
